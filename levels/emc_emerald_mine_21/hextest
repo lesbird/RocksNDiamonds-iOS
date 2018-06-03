@@ -1,0 +1,56 @@
+REM - 24.05.91 hextest
+  CLEAR 
+  DEFINT A-Z
+  CHDIR "dh0:az/me/pla"
+
+  HEKSORG=0
+  CAVE=0
+  
+Eenmalig:
+  OPEN "I",#1,"0" : R$=INPUT$(LOF(1),1) : CLOSE #1    
+
+REM  01  02  03 .......  62  63  64       cave posities
+REM  65  66  67 ....... 126 127 128
+REM 129 130 131 ....... 190 191 192
+REM 193 194 195 ....... 254 255 256
+REM 257 258 259 ....... 318 319 320
+REM 321 322 323 ....... 382 383 384
+REM 385 386 387 ....... 446 447 448
+REM 449 450 451 ....... 510 511 512
+  
+Main:
+  CAVE$=STR$(CAVE)
+  L=LEN(CAVE$)
+  CAVE$=MID$(CAVE$,2,L-1)
+  PRINT CAVE$
+
+  HEKS=HEKSORG
+  BPOS=131
+    FOR RRR=0 TO 15                  ' 3e regel
+    MID$(R$,BPOS,1)=CHR$(HEKS)  
+    BPOS=BPOS+3
+    HEKS=HEKS+1        
+  NEXT RRR      
+
+  HEKS=HEKSORG
+  BPOS=387
+  FOR RRR=0 TO 15                    ' 7e regel
+    MID$(R$,BPOS,1)=CHR$(HEKS)  
+    BPOS=BPOS+3
+    HEKS=HEKS+1        
+  NEXT RRR      
+
+Save.cave:   
+  OPEN "O",#1,CAVE$ : PRINT #1,R$ : CLOSE #1      
+  KILL CAVE$+".info"
+
+Wat.nu:
+  HEKSORG=HEKSORG+16
+  HEKS=HEKSORG
+  CAVE=CAVE+1
+  IF CAVE<16 THEN GOTO Main     ' cave 0 - 15 met 16 HEX waardes
+        
+Einde:
+  END                  
+  
+

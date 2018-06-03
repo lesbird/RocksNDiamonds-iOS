@@ -1,0 +1,30 @@
+build/SDL_sysloadso.lo: \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/src/loadso/dlopen/SDL_sysloadso.c \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/src/loadso/dlopen/../../SDL_internal.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/src/loadso/dlopen/../../dynapi/SDL_dynapi.h \
+  include/SDL_config.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_platform.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/begin_code.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/close_code.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_loadso.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_stdinc.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_config.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_error.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/src/loadso/dlopen/../../video/uikit/SDL_uikitvideo.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/src/loadso/dlopen/../../video/uikit/../SDL_sysvideo.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_messagebox.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_video.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_pixels.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_endian.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_rect.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_rwops.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_surface.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_blendmode.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_shape.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_thread.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_atomic.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_mutex.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/src/loadso/dlopen/../../video/uikit/../SDL_vulkan_internal.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/src/loadso/dlopen/../../video/uikit/.././khronos/vulkan/vulkan.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/src/loadso/dlopen/../../video/uikit/.././khronos/vulkan/./vk_platform.h \
+  /Users/lesbird/Perforce/Les-MacBook-Pro/depot/RocksDiamonds4/SDL/SDL2-2.0.8-11687/include/SDL_vulkan.h
